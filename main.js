@@ -7,7 +7,7 @@ const inputTooShortAlert = document.getElementById("input-too-short");
 let resultChart = null;
 
 const process_table = (table) => {
-  const labels = table.map((item) => item[0]);
+  const labels = table.map((item) => `Layer ${item[0]}`);
   const values = table.map((item) => item[1]);
   return {
     labels,
