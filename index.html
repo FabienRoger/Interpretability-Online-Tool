@@ -39,17 +39,13 @@
     <div class="main">
       <p>
         This tool allows you to know what fraction of the time neurons in each
-        layer of the GPT-2 model is activated.
+        layer of the GPT-2 model is activated on a given input text.
       </p>
       <div class="form-group">
         <label for="textbox">Enter you text here</label>
-        <textarea
-          class="form-control"
-          id="textbox"
-          rows="4"
-          value="GPT-2 is a language model created by OpenAI."
-          maxlength="500"
-        ></textarea>
+        <textarea class="form-control" id="textbox" rows="4" maxlength="500">
+GPT-2 is a language model created by OpenAI.</textarea
+        >
       </div>
       <p class="error-message" id="input-too-short" hidden>
         The input should not be empty.

@@ -61,9 +61,10 @@ const draw_chart = (table) => {
 };
 
 const fetch_API = (text) => {
+  console.log(text);
   fetch(API_URL, {
     method: "POST",
-    body: "some text",
+    body: text,
     // mode: "cors",
     // cache: "default",
   })
@@ -84,7 +85,7 @@ submitButton.onclick = () => {
   }
 
   submitButton.disabled = true;
-  fetch_API();
+  fetch_API(textbox.value);
 };
 
 textbox.oninput = () => {

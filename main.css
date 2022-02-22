@@ -2,13 +2,16 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 header {
   background-color: black;
   color: white;
   padding: 2em;
   top: 0;
   left: 0;
-  height: 10%;
   margin-bottom: 1em;
   width: 100%;
 }
@@ -21,12 +24,7 @@ footer {
   width: 100%;
 }
 
-h1 {
-  text-align: center;
-}
-
 .main {
-  min-height: 80vh;
   max-width: 60em;
   padding: 1em;
   margin: auto;
