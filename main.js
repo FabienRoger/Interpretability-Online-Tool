@@ -1,5 +1,5 @@
 const API_URL =
-  "https://a38go46a21.execute-api.us-east-1.amazonaws.com/default/ServerlessHuggingFaceStack-functionF19B1A04-HdK1WOXBtxwl";
+  "https://t4vp11xbth.execute-api.us-east-1.amazonaws.com/ServerlessHuggingFaceStack3-handlerE1533BD5-ESlkhSlhgvWL";
 
 const submitButton = document.getElementById("submit");
 const textbox = document.getElementById("textbox");
