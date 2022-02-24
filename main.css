@@ -24,6 +24,15 @@ footer {
   width: 100%;
 }
 
+textarea {
+  margin-top: 1em;
+}
+
+select {
+  margin-right: 1em;
+  max-width: 30em;
+}
+
 .main {
   max-width: 60em;
   padding: 1em;
@@ -37,6 +46,8 @@ footer {
 .submit-row {
   display: flex;
   align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .loading {
@@ -50,5 +61,7 @@ footer {
 }
 
 #result-chart {
-  max-height: 20em;
+  max-height: 30em;
+  max-width: 100vw;
+  margin-bottom: 1em;
 }
