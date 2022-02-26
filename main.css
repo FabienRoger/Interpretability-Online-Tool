@@ -30,7 +30,6 @@ textarea {
 
 select {
   margin-right: 1em;
-  max-width: 30em;
 }
 
 .main {
@@ -48,16 +47,18 @@ select {
   align-items: center;
   margin-top: 1em;
   margin-bottom: 1em;
+  max-width: 40em;
 }
 
 .loading {
   margin-left: 1em;
+  flex-shrink: 0;
   width: 1.5em;
   height: 1.5em;
 }
 
 #submit:enabled ~ .loading {
-  display: none;
+  opacity: 0;
 }
 
 #result-chart {
